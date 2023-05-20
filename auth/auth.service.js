@@ -10,7 +10,6 @@ class AuthService {
     this.githubService = githubService;
     this.users = new Map();
     this.loadUsers();
-    console.log(this.users);
   }
 
   loadUsers() {
